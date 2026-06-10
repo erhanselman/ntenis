@@ -85,8 +85,8 @@ const config = {
       navbar: {
         title: 'NTenis',
         logo: {
-          alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          alt: 'NTenis',
+          src: 'img/logo_ntenis.png',
         },
         items: [
           /*  {
