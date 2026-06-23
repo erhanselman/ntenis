@@ -12,7 +12,7 @@ import { themes as prismThemes } from 'prism-react-renderer';
 const config = {
   title: 'NTenis',
   tagline: 'Tenis sitesi',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/favicon_ntenis.ico',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   future: {
