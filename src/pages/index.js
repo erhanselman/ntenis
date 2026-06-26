@@ -13,7 +13,7 @@ function HomepageHeader() {
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
       <div className="container">
         <Heading as="h1" className="hero__title">
-          <img src="/img/logo_ntenis.png" height="37" alt="NTenis" /> {siteConfig.title}
+          <div style={{ display: 'flex', alignItems: 'center', gap: '10px', flexWrap: 'nowrap' }}><img src="/img/logo_ntenis.png" height="38" alt="NTenis" /> {siteConfig.title}</div>
         </Heading>
         <p className="hero__subtitle">{siteConfig.tagline}</p>
         {/*  <div className={styles.buttons}>

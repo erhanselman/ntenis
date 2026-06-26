@@ -28,3 +28,14 @@
   --ifm-color-primary-lightest: #4fddbf;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
+
+
+
+/* Sadece Dark Mod aktifken çalışacak kurallar */
+:root[data-theme='dark'] .hero__title {
+  color: #08863d;
+}
+
+:root[data-theme='dark'] .hero__subtitle {
+  color: #dddddd;
+}
