@@ -24,7 +24,7 @@ function HomepageHeader() {
           </Link>
         </div> */}
       </div>
-      <img src="/img/hero-ntenis.png" height="180" alt="NTenis" />
+      <img src="/img/hero_ntenis.png" height="180" alt="NTenis" />
     </header>
   );
 }
