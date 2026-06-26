@@ -11,7 +11,7 @@ import { themes as prismThemes } from 'prism-react-renderer';
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'NTenis',
-  tagline: 'Tenis sitesi',
+  tagline: 'Tenis ile ilgili en kapsamlı site',
   favicon: 'img/favicon_ntenis.ico',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
