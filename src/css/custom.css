@@ -19,7 +19,7 @@
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme='dark'] {
-  --ifm-color-primary: #033c81;
+  --ifm-color-primary: #08863d;
   --ifm-color-primary-dark: #21af90;
   --ifm-color-primary-darker: #1fa588;
   --ifm-color-primary-darkest: #1a8870;
@@ -31,11 +31,31 @@
 
 
 
-/* Sadece Dark Mod aktifken çalışacak kurallar */
+/* el özelleştirmeler */
+
 :root[data-theme='dark'] .hero__title {
-  color: #08863d;
+  color: #ffffff;
 }
 
 :root[data-theme='dark'] .hero__subtitle {
-  color: #dddddd;
+  color: #ffffff;
 }
+
+/* :root[data-theme='dark'] .hero__title {
+  color: #08863d;
+} */
+
+/* :root[data-theme='dark'] .hero__subtitle {
+  color: #dddddd;
+} */
+
+
+/* [data-theme='dark'] a {
+  --ifm-link-color: #ffffff;
+  --ifm-link-hover-color: #08863d;
+  color: var(--ifm-link-color);
+}
+
+[data-theme='dark'] a:hover {
+  color: var(--ifm-link-hover-color);
+} */
